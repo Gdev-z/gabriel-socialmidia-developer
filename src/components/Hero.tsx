@@ -42,25 +42,25 @@ const Hero = () => {
 
         {/* Glassmorphism floating element */}
         <div className="hidden lg:block absolute right-8 top-1/2 -translate-y-1/2">
-          <div className="glass-panel rounded-lg p-8 w-72">
+          <div className="bg-white/10 backdrop-blur-xl border border-white/20 rounded-lg p-8 w-72 shadow-lg">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-3 h-3 rounded-full bg-primary animate-pulse" />
-              <span className="font-headline text-xs font-bold tracking-[0.2em] text-muted-foreground uppercase">
+              <span className="font-headline text-xs font-bold tracking-[0.2em] text-white/60 uppercase">
                 LIVE STATUS
               </span>
             </div>
             <div className="space-y-3">
               <div className="flex justify-between text-sm">
-                <span className="text-muted-foreground">Systems</span>
+                <span className="text-white/60">Systems</span>
                 <span className="font-headline font-bold text-primary">ONLINE</span>
               </div>
               <div className="flex justify-between text-sm">
-                <span className="text-muted-foreground">Projects</span>
-                <span className="font-headline font-bold text-foreground">12 Active</span>
+                <span className="text-white/60">Projects</span>
+                <span className="font-headline font-bold text-white">12 Active</span>
               </div>
               <div className="flex justify-between text-sm">
-                <span className="text-muted-foreground">Uptime</span>
-                <span className="font-headline font-bold text-foreground">99.9%</span>
+                <span className="text-white/60">Uptime</span>
+                <span className="font-headline font-bold text-white">99.9%</span>
               </div>
             </div>
           </div>
