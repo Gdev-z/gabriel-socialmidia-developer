@@ -1,14 +1,16 @@
-import { Terminal, Menu } from "lucide-react";
+import { Terminal, Menu, Globe } from "lucide-react";
 import { useState } from "react";
-
-const navLinks = [
-  { label: "ECOSYSTEM", href: "#hero", active: true },
-  { label: "SERVICES", href: "#services" },
-  { label: "WORKS", href: "#portfolio" },
-];
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const Navbar = () => {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const { lang, toggleLang, t } = useLanguage();
+
+  const navLinks = [
+    { label: t("nav_ecosystem"), href: "#hero", active: true },
+    { label: t("nav_services"), href: "#services" },
+    { label: t("nav_works"), href: "#portfolio" },
+  ];
 
   return (
     <nav className="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-xl shadow-sm border-b border-border/50">
@@ -32,6 +34,13 @@ const Navbar = () => {
               {link.label}
             </a>
           ))}
+          <button
+            onClick={toggleLang}
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-sm border border-border/50 text-xs font-headline font-bold tracking-widest text-muted-foreground hover:text-primary hover:border-primary/50 transition-all duration-300"
+          >
+            <Globe size={14} />
+            {lang === "pt" ? "EN" : "PT"}
+          </button>
         </div>
 
         <button
@@ -54,6 +63,13 @@ const Navbar = () => {
               {link.label}
             </a>
           ))}
+          <button
+            onClick={toggleLang}
+            className="flex items-center gap-1.5 self-start px-3 py-1.5 rounded-sm border border-border/50 text-xs font-headline font-bold tracking-widest text-muted-foreground hover:text-primary hover:border-primary/50 transition-all duration-300"
+          >
+            <Globe size={14} />
+            {lang === "pt" ? "EN" : "PT"}
+          </button>
         </div>
       )}
     </nav>

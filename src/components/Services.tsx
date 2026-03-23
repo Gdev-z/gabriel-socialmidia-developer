@@ -1,26 +1,16 @@
 import { Terminal, Network, PlayCircle } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
-
-const services = [
-  {
-    icon: Terminal,
-    title: "System Architecture",
-    description: "React, Node, Scalable Solutions. Building robust foundations that grow with your user base.",
-  },
-  {
-    icon: Network,
-    title: "Attention Engineering",
-    description: "Growth Strategy, Lead Gen, Brand Authority. Psychological triggers met with data-driven results.",
-  },
-  {
-    icon: PlayCircle,
-    title: "Visual Narrative",
-    description: "Cinematic Editing, Storytelling, High-Impact Reels. Retaining viewership through high-fidelity visuals.",
-  },
-];
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const Services = () => {
   const ref = useScrollAnimation();
+  const { t } = useLanguage();
+
+  const services = [
+    { icon: Terminal, title: t("svc_1_title"), description: t("svc_1_desc") },
+    { icon: Network, title: t("svc_2_title"), description: t("svc_2_desc") },
+    { icon: PlayCircle, title: t("svc_3_title"), description: t("svc_3_desc") },
+  ];
 
   return (
     <section id="services" className="py-32 bg-surface-low" ref={ref}>
@@ -28,21 +18,21 @@ const Services = () => {
         <div className="animate-on-scroll flex flex-col md:flex-row justify-between items-end mb-24 gap-8">
           <div>
             <span className="text-primary font-headline font-bold tracking-[0.3em] uppercase text-xs mb-4 block">
-              CORE_FACULTIES
+              {t("svc_label")}
             </span>
             <h2 className="font-headline text-4xl md:text-6xl font-bold tracking-tighter text-foreground">
-              MULTIDISCIPLINARY <br />EXECUTION
+              {t("svc_title_1")} <br />{t("svc_title_2")}
             </h2>
           </div>
           <p className="text-muted-foreground max-w-xs text-sm leading-relaxed pb-2">
-            Merging technical precision with creative strategy to dominate the digital landscape.
+            {t("svc_desc")}
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-border/50">
           {services.map((service, i) => (
             <div
-              key={service.title}
+              key={i}
               className="animate-on-scroll group p-12 bg-background hover:bg-surface-container transition-colors duration-500"
               style={{ transitionDelay: `${i * 100}ms` }}
             >
