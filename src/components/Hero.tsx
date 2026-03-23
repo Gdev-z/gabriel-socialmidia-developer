@@ -69,7 +69,7 @@ const Hero = () => {
 
       {/* Large text watermark */}
       <div className="absolute right-0 bottom-20 hidden lg:block opacity-[0.03]">
-        <span className="font-headline text-[15rem] font-black tracking-tighter select-none rotate-90 origin-bottom-right text-foreground">
+        <span className="font-headline text-[15rem] font-black tracking-tighter select-none rotate-90 origin-bottom-right text-white">
           ARCHITECT
         </span>
       </div>
