@@ -35,7 +35,11 @@ const Hero = () => {
               {t("hero_subtitle")}
             </p>
             <a
-            href="#services" 
+            href="#services"
+  onClick={(e) => {
+    e.preventDefault();
+    document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' });
+  }}
             className="group relative flex items-center gap-4 bg-primary text-primary-foreground px-8 py-5 rounded-sm font-headline font-bold uppercase tracking-widest text-sm transition-all duration-500 active:scale-95 overflow-hidden hover:shadow-lg hover:shadow-primary/20">
               <span className="relative z-10">{t("hero_cta")}</span>
               <ArrowRight className="relative z-10 group-hover:translate-x-1 transition-transform" size={18} />
