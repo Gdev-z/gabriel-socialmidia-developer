@@ -1,16 +1,18 @@
 import { ArrowRight } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
+import heroBg from "@/assets/hero-bg.jpg";
 
 const Hero = () => {
   const ref = useScrollAnimation();
 
   return (
-    <section id="hero" className="relative min-h-screen flex items-center pt-20 overflow-hidden hero-gradient">
-      {/* Background blurs */}
+    <section id="hero" className="relative min-h-screen flex items-center pt-20 overflow-hidden">
+      {/* Background image */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute top-1/4 left-1/4 w-[500px] h-[500px] bg-white/5 rounded-full blur-[120px]" />
-        <div className="absolute bottom-1/4 right-1/4 w-[400px] h-[400px] bg-white/5 rounded-full blur-[100px]" />
+        <img src={heroBg} alt="" className="w-full h-full object-cover" />
       </div>
+      {/* Dark gradient overlay */}
+      <div className="absolute inset-0 z-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30" />
 
       <div className="container mx-auto px-8 relative z-10" ref={ref}>
         <div className="max-w-4xl">
