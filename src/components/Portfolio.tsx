@@ -34,18 +34,18 @@ const Portfolio = () => {
             >
               <img
                 alt={project.title}
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-50 group-hover:opacity-70"
+                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110  group-hover:opacity-97"
                 src={project.image}
                 loading="lazy"
                 width={800}
                 height={1000}
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-background via-background/20 to-transparent opacity-90" />
+               <div className="absolute inset-0 bg-gradient-to-t from-black/100 via-black/10 to-transparent" />
               <div className="absolute bottom-0 left-0 p-8 w-full translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
                 <span className="text-[10px] text-primary font-bold tracking-widest uppercase mb-2 block">
                   {project.tag}
                 </span>
-                <h3 className="font-headline text-xl font-bold mb-4 text-foreground">{project.title}</h3>
+                <h3 className="font-headline text-xl font-bold mb-4 text-white">{project.title}</h3>
                 <ArrowUpRight className="text-foreground group-hover:text-primary transition-colors" size={20} />
               </div>
             </div>

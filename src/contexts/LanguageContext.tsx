@@ -39,7 +39,7 @@ const translations = {
   // Portfolio
   portfolio_title: { pt: "TRABALHOS SELECIONADOS", en: "SELECTED WORKS" },
   portfolio_1_tag: { pt: "Desenvolvimento", en: "Development" },
-  portfolio_1_title: { pt: "Captação de Leads", en: "Leads Generation" },
+  portfolio_1_title: { pt: "CAPTAÇÃO DE LEADS", en: "LEADS GENERATION" },
   portfolio_2_tag: { pt: "Estratégia", en: "Strategy" },
   portfolio_2_title: { pt: "MOTOR DE ATENÇÃO V1", en: "ATTENTION ENGINE V1" },
   portfolio_3_tag: { pt: "Vídeo", en: "Video" },
