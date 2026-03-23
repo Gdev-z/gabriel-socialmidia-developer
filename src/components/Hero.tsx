@@ -29,7 +29,7 @@ const Hero = () => {
           </h1>
 
           <div className="animate-on-scroll flex flex-col md:flex-row md:items-center gap-6 md:gap-12">
-            <p className="text-muted-foreground text-lg md:text-xl font-light tracking-wide max-w-lg border-l-2 border-primary/30 pl-6 py-2">
+            <p className="text-white/70 text-lg md:text-xl font-light tracking-wide max-w-lg border-l-2 border-white/30 pl-6 py-2">
               Full Stack Dev | Social Media &amp; Video Strategist.
             </p>
             <button className="group relative flex items-center gap-4 bg-primary text-primary-foreground px-8 py-5 rounded-sm font-headline font-bold uppercase tracking-widest text-sm transition-all duration-500 active:scale-95 overflow-hidden hover:shadow-lg hover:shadow-primary/20">
