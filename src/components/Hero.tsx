@@ -14,7 +14,7 @@ const Hero = () => {
 
       <div className="container mx-auto px-8 relative z-10" ref={ref}>
         <div className="max-w-4xl">
-          <div className="animate-on-scroll inline-flex items-center gap-2 mb-8 px-3 py-1.5 bg-primary/10 text-primary rounded-sm border border-primary/20">
+          <div className="animate-on-scroll inline-flex items-center gap-2 mb-8 px-3 py-1.5 bg-white/15 text-white rounded-sm border border-white/25">
             <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse" />
             <span className="text-[10px] font-bold tracking-[0.2em] uppercase font-headline">
               SYSTEM_ONLINE // V2.04
