@@ -21,7 +21,7 @@ const Hero = () => {
             </span>
           </div>
 
-          <h1 className="animate-on-scroll font-headline text-5xl md:text-8xl font-bold tracking-tighter text-foreground leading-[0.9] mb-8">
+          <h1 className="animate-on-scroll font-headline text-5xl md:text-8xl font-bold tracking-tighter text-white leading-[0.9] mb-8">
             ENGINEERING ATTENTION, <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary-glow">
               BUILDING SYSTEMS.
