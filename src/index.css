@@ -87,6 +87,6 @@
   }
 
   .hero-gradient {
-    background: linear-gradient(180deg, hsl(210 60% 96%) 0%, hsl(200 50% 92%) 60%, hsl(0 0% 100%) 100%);
+    background: linear-gradient(180deg, hsl(205 70% 93%) 0%, hsl(210 50% 96%) 50%, hsl(210 40% 99%) 100%);
   }
 }
