@@ -18,7 +18,7 @@ const Navbar = () => {
         <a href="#" className="flex items-center gap-3 group transition-all duration-500 hover:scale-105">
           <Terminal className="text-primary" size={22} />
           <span className="text-lg font-bold tracking-[0.2em] text-foreground font-headline uppercase">
-            ARCHITECT.SYSTEMS
+            Gabriel.dev
           </span>
         </a>
 

@@ -4,7 +4,7 @@ type Lang = "pt" | "en";
 
 const translations = {
   // Navbar
-  nav_ecosystem: { pt: "ECOSSISTEMA", en: "ECOSYSTEM" },
+  nav_ecosystem: { pt: "INÍCIO", en: "HOME" },
   nav_services: { pt: "SERVIÇOS", en: "SERVICES" },
   nav_works: { pt: "TRABALHOS", en: "WORKS" },
 
@@ -39,7 +39,7 @@ const translations = {
   // Portfolio
   portfolio_title: { pt: "TRABALHOS SELECIONADOS", en: "SELECTED WORKS" },
   portfolio_1_tag: { pt: "Desenvolvimento", en: "Development" },
-  portfolio_1_title: { pt: "DASHBOARD NEURAL_NET", en: "NEURAL_NET DASHBOARD" },
+  portfolio_1_title: { pt: "Captação de Leads", en: "Leads Generation" },
   portfolio_2_tag: { pt: "Estratégia", en: "Strategy" },
   portfolio_2_title: { pt: "MOTOR DE ATENÇÃO V1", en: "ATTENTION ENGINE V1" },
   portfolio_3_tag: { pt: "Vídeo", en: "Video" },
@@ -51,7 +51,7 @@ const translations = {
   cta_button: { pt: "INICIAR PROJETO", en: "INITIATE PROJECT" },
 
   // Footer
-  footer_copyright: { pt: "© 2024 KINETIC LUMINA. ENGENHARIA DE ATENÇÃO.", en: "© 2024 KINETIC LUMINA. ENGINEERING ATTENTION." },
+  footer_copyright: { pt: "© 2026 ENGENHARIA DE ATENÇÃO.", en: "© 2024 KINETIC LUMINA. ENGINEERING ATTENTION." },
   footer_status: { pt: "STATUS_SISTEMA", en: "SYSTEM_STATUS" },
   footer_resources: { pt: "RECURSOS", en: "RESOURCES" },
   footer_connect: { pt: "CONECTAR", en: "CONNECT" },

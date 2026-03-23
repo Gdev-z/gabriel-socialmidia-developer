@@ -15,7 +15,7 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row justify-between items-center px-12 max-w-[1440px] mx-auto gap-8">
         <div className="flex flex-col gap-2">
           <span className="text-primary font-black font-headline text-lg uppercase tracking-widest">
-            ARCHITECT.SYSTEMS
+            Gabriel.dev
           </span>
           <p className="text-xs tracking-widest uppercase text-muted-foreground/50">
             {t("footer_copyright")}
@@ -39,7 +39,7 @@ const Footer = () => {
       </div>
       <div className="mt-16 text-center opacity-[0.03]">
         <p className="font-headline font-black text-6xl tracking-[1em] translate-y-8 select-none text-foreground">
-          KINETIC
+          SMART
         </p>
       </div>
     </footer>

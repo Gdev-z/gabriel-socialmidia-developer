@@ -24,9 +24,9 @@ const Hero = () => {
           </div>
 
           <h1 className="animate-on-scroll font-headline text-5xl md:text-8xl font-bold tracking-tighter text-white leading-[0.9] mb-8">
-            {t("hero_title_1")} <br />
+            {<br />} <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary-glow">
-              {t("hero_title_2")}
+              {<br />}<br />
             </span>
           </h1>
 
@@ -34,11 +34,13 @@ const Hero = () => {
             <p className="text-white/70 text-lg md:text-xl font-light tracking-wide max-w-lg border-l-2 border-white/30 pl-6 py-2">
               {t("hero_subtitle")}
             </p>
-            <button className="group relative flex items-center gap-4 bg-primary text-primary-foreground px-8 py-5 rounded-sm font-headline font-bold uppercase tracking-widest text-sm transition-all duration-500 active:scale-95 overflow-hidden hover:shadow-lg hover:shadow-primary/20">
+            <a
+            href="#services" 
+            className="group relative flex items-center gap-4 bg-primary text-primary-foreground px-8 py-5 rounded-sm font-headline font-bold uppercase tracking-widest text-sm transition-all duration-500 active:scale-95 overflow-hidden hover:shadow-lg hover:shadow-primary/20">
               <span className="relative z-10">{t("hero_cta")}</span>
               <ArrowRight className="relative z-10 group-hover:translate-x-1 transition-transform" size={18} />
               <div className="absolute inset-0 bg-primary-glow translate-y-full group-hover:translate-y-0 transition-transform duration-500" />
-            </button>
+            </a>
           </div>
         </div>
 
