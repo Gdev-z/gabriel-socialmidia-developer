@@ -1,6 +1,15 @@
-const footerLinks = ["SYSTEM_STATUS", "RESOURCES", "CONNECT", "SOURCE"];
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const Footer = () => {
+  const { t } = useLanguage();
+
+  const footerLinks = [
+    t("footer_status"),
+    t("footer_resources"),
+    t("footer_connect"),
+    t("footer_source"),
+  ];
+
   return (
     <footer className="w-full py-20 mt-32 bg-surface-low border-t border-border/30">
       <div className="flex flex-col md:flex-row justify-between items-center px-12 max-w-[1440px] mx-auto gap-8">
@@ -9,7 +18,7 @@ const Footer = () => {
             ARCHITECT.SYSTEMS
           </span>
           <p className="text-xs tracking-widest uppercase text-muted-foreground/50">
-            © 2024 KINETIC LUMINA. ENGINEERING ATTENTION.
+            {t("footer_copyright")}
           </p>
         </div>
         <div className="flex flex-wrap justify-center gap-12">

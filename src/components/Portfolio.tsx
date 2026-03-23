@@ -1,24 +1,26 @@
 import { ArrowUpRight } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
+import { useLanguage } from "@/contexts/LanguageContext";
 import portfolio1 from "@/assets/portfolio-1.jpg";
 import portfolio2 from "@/assets/portfolio-2.jpg";
 import portfolio3 from "@/assets/portfolio-3.jpg";
 
-const projects = [
-  { tag: "Development", title: "NEURAL_NET DASHBOARD", image: portfolio1 },
-  { tag: "Strategy", title: "ATTENTION ENGINE V1", image: portfolio2 },
-  { tag: "Video", title: "CINEMATIC FRAGMENTS", image: portfolio3 },
-];
-
 const Portfolio = () => {
   const ref = useScrollAnimation();
+  const { t } = useLanguage();
+
+  const projects = [
+    { tag: t("portfolio_1_tag"), title: t("portfolio_1_title"), image: portfolio1 },
+    { tag: t("portfolio_2_tag"), title: t("portfolio_2_title"), image: portfolio2 },
+    { tag: t("portfolio_3_tag"), title: t("portfolio_3_title"), image: portfolio3 },
+  ];
 
   return (
     <section id="portfolio" className="py-32 relative overflow-hidden" ref={ref}>
       <div className="container mx-auto px-8">
         <div className="animate-on-scroll mb-20">
           <h2 className="font-headline text-4xl md:text-5xl font-bold tracking-tighter mb-4 text-foreground">
-            SELECTED WORKS
+            {t("portfolio_title")}
           </h2>
           <div className="w-24 h-1 bg-primary" />
         </div>
@@ -26,7 +28,7 @@ const Portfolio = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {projects.map((project, i) => (
             <div
-              key={project.title}
+              key={i}
               className="animate-on-scroll group relative aspect-[4/5] bg-surface-container overflow-hidden rounded-sm transition-all duration-700 hover:-translate-y-2 hover:shadow-xl"
               style={{ transitionDelay: `${i * 150}ms` }}
             >
