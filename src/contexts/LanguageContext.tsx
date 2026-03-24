@@ -21,6 +21,11 @@ const translations = {
   hero_projects_count: { pt: "12 Ativos", en: "12 Active" },
   hero_uptime: { pt: "Disponibilidade", en: "Uptime" },
 
+  // Hero Slide 2
+  hero2_title_1: { pt: "DESENVOLVIMENTO", en: "DEVELOPMENT" },
+  hero2_title_2: { pt: "& ENGENHARIA", en: "& ENGINEERING" },
+  hero2_subtitle: { pt: "Soluções Profissionais em TypeScript & Node.js para escalar seu negócio digital.", en: "Professional TypeScript & Node.js solutions to scale your digital business." },
+
   // Services
   svc_label: { pt: "COMPETÊNCIAS_CENTRAIS", en: "CORE_FACULTIES" },
   svc_title_1: { pt: "EXECUÇÃO", en: "MULTIDISCIPLINARY" },
