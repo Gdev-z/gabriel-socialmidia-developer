@@ -38,7 +38,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="mt-16 text-center opacity-[0.03]">
-        <p className="font-headline font-black text-6xl tracking-[1em] translate-y-8 select-none text-foreground">
+        <p className="font-headline font-black text-4xl md:text-8x tracking-[1em] translate-y-8 select-none text-foreground">
           SMART
         </p>
       </div>

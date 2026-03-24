@@ -52,7 +52,7 @@ const Hero = () => {
       {/* Dark overlay */}
       <div className="absolute inset-0 z-[1] bg-gradient-to-r from-black/70 via-black/50 to-black/30" />
 
-      <div className="container mx-auto px-8 relative z-10" ref={ref}>
+      <div className="container mx-auto px-4 md:px-8 relative z-10" ref={ref}>
         <div className="max-w-4xl">
           <div className="animate-on-scroll inline-flex items-center gap-2 mb-8 px-3 py-1.5 bg-white/15 text-white rounded-sm border border-white/25">
             <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse" />
@@ -73,7 +73,7 @@ const Hero = () => {
                   pointerEvents: activeSlide === i ? "auto" : "none",
                 }}
               >
-                <h1 className="font-headline text-5xl md:text-8xl font-bold tracking-tighter text-white leading-[0.9] mb-8">
+                <h1 className="font-headline text-4xl md:text-8xl font-bold tracking-tighter text-white leading-[0.9] mb-8">
                   {slide.title1} <br />
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary-glow">
                     {slide.title2}

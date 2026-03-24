@@ -10,8 +10,8 @@ const translations = {
 
   // Hero
   hero_badge: { pt: "SISTEMA_ONLINE // V2.04", en: "SYSTEM_ONLINE // V2.04" },
-  hero_title_1: { pt: "ENGENHARIA DE ATENÇÃO,", en: "ENGINEERING ATTENTION," },
-  hero_title_2: { pt: "CONSTRUINDO SISTEMAS.", en: "BUILDING SYSTEMS." },
+  hero_title_1: { pt: "", en: "" },
+  hero_title_2: { pt: "", en: "" },
   hero_subtitle: { pt: "Desenvolvedor Full Stack | Estrategista de Mídias Sociais & Vídeo.", en: "Full Stack Dev | Social Media & Video Strategist." },
   hero_cta: { pt: "EXPLORAR MEU ECOSSISTEMA", en: "EXPLORE MY ECOSYSTEM" },
   hero_status: { pt: "STATUS AO VIVO", en: "LIVE STATUS" },
@@ -22,8 +22,8 @@ const translations = {
   hero_uptime: { pt: "Disponibilidade", en: "Uptime" },
 
   // Hero Slide 2
-  hero2_title_1: { pt: "DESENVOLVIMENTO", en: "DEVELOPMENT" },
-  hero2_title_2: { pt: "& ENGENHARIA", en: "& ENGINEERING" },
+  hero2_title_1: { pt: "", en: "" },
+  hero2_title_2: { pt: "", en: "" },
   hero2_subtitle: { pt: "Soluções Profissionais em TypeScript & Node.js para escalar seu negócio digital.", en: "Professional TypeScript & Node.js solutions to scale your digital business." },
 
   // Services

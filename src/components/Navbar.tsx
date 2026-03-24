@@ -24,16 +24,16 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-xl shadow-sm border-b border-border/50">
-      <div className="flex justify-between items-center w-full px-8 py-5 max-w-[1440px] mx-auto">
-        {/* Logo - Agora rola para o topo suavemente */}
+    <nav className="fixed top-0 left-0 right-0 w-screen z-50 bg-background/80 backdrop-blur-xl shadow-sm border-b border-border/50">
+      <div className="flex justify-between items-center w-full px-4 md:px-8 py-5 max-w-full overflow-x-hidden mx-auto">
+        {/* Logo */}
         <a
           href="#hero"
           onClick={(e) => scrollToSection(e, "hero")}
-          className="flex items-center gap-3 group transition-all duration-500 hover:scale-105"
+          className="flex items-center gap-2 group transition-all duration-500 hover:scale-105 shrink-0"
         >
-          <Terminal className="text-primary" size={22} />
-          <span className="text-lg font-bold tracking-[0.2em] text-foreground font-headline uppercase">
+          <Terminal className="text-primary shrink-0" size={20} />
+          <span className="text-sm md:text-lg font-bold tracking-tight md:tracking-[0.2em] text-foreground font-headline uppercase truncate">
             Gabriel.dev
           </span>
         </a>
@@ -63,7 +63,7 @@ const Navbar = () => {
 
         {/* Mobile Toggle */}
         <button
-          className="md:hidden text-muted-foreground hover:text-primary transition-colors"
+          className="md:hidden text-muted-foreground hover:text-primary transition-colors p-2 -mr-2"
           onClick={() => setMobileOpen(!mobileOpen)}
         >
           <Menu size={24} />
@@ -72,7 +72,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {mobileOpen && (
-        <div className="md:hidden bg-background/95 backdrop-blur-xl border-t border-border px-8 py-6 flex flex-col gap-4">
+        <div className="md:hidden bg-background/95 backdrop-blur-xl border-t border-border px-6 py-6 flex flex-col gap-4 w-full">
           {navLinks.map((link) => (
             <a
               key={link.id}
