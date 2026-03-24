@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
+import AboutMe from "@/components/AboutMe";
 import TechStack from "@/components/TechStack";
 import Portfolio from "@/components/Portfolio";
 import CTASection from "@/components/CTASection";
@@ -12,6 +13,7 @@ const Index = () => {
       <Navbar />
       <Hero />
       <Services />
+      <AboutMe />
       <TechStack />
       <Portfolio />
       <CTASection />
