@@ -50,6 +50,17 @@ const translations = {
   portfolio_3_tag: { pt: "Vídeo", en: "Video" },
   portfolio_3_title: { pt: "FRAGMENTOS CINEMÁTICOS", en: "CINEMATIC FRAGMENTS" },
 
+  // About Me
+  about_label: { pt: "SOBRE_MIM", en: "ABOUT_ME" },
+  about_title: { pt: "Engenharia de Precisão: Do Silício ao Código.", en: "Precision Engineering: From Silicon to Code." },
+  about_text: { pt: "Minha base vem da manutenção avançada de hardware. Essa experiência me deu uma visão que poucos devs possuem: a capacidade de entender a tecnologia de dentro para fora. Hoje, uso essa mentalidade analítica para construir ecossistemas digitais que não apenas existem, mas performam.", en: "My foundation comes from advanced hardware maintenance. This experience gave me an insight few devs possess: the ability to understand technology from the inside out. Today, I use this analytical mindset to build digital ecosystems that don't just exist — they perform." },
+  about_pillar_1_title: { pt: "Diagnóstico Preciso", en: "Precise Diagnostics" },
+  about_pillar_1_desc: { pt: "Identifico gargalos que impedem sua conversão.", en: "I identify bottlenecks that block your conversion." },
+  about_pillar_2_title: { pt: "Performance Extrema", en: "Extreme Performance" },
+  about_pillar_2_desc: { pt: "Sistemas leves, rápidos e otimizados para o motor da web.", en: "Lightweight, fast systems optimized for the web engine." },
+  about_pillar_3_title: { pt: "Arquitetura de Escala", en: "Scalable Architecture" },
+  about_pillar_3_desc: { pt: "Funis de vendas construídos para suportar alto volume de leads.", en: "Sales funnels built to handle high-volume leads." },
+
   // CTA
   cta_title: { pt: "PRONTO PARA ESCALAR?", en: "READY TO SCALE?" },
   cta_desc: { pt: "Vamos construir sua arquitetura digital e dominar seu nicho com engenharia de precisão.", en: "Let's build your digital architecture and dominate your niche with precision engineering." },
