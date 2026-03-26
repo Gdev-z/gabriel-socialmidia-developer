@@ -28,15 +28,15 @@ const translations = {
 
   // Services
   svc_label: { pt: "COMPETÊNCIAS_CENTRAIS", en: "CORE_FACULTIES" },
-  svc_title_1: { pt: "EXECUÇÃO", en: "MULTIDISCIPLINARY" },
-  svc_title_2: { pt: "MULTIDISCIPLINAR", en: "EXECUTION" },
-  svc_desc: { pt: "Unindo precisão técnica com estratégia criativa para dominar a paisagem digital.", en: "Merging technical precision with creative strategy to dominate the digital landscape." },
-  svc_1_title: { pt: "Arquitetura de Sistemas", en: "System Architecture" },
-  svc_1_desc: { pt: "React, Node, Soluções Escaláveis. Construindo bases robustas que crescem com sua base de usuários.", en: "React, Node, Scalable Solutions. Building robust foundations that grow with your user base." },
-  svc_2_title: { pt: "Engenharia de Atenção", en: "Attention Engineering" },
-  svc_2_desc: { pt: "Estratégia de Crescimento, Geração de Leads, Autoridade de Marca. Gatilhos psicológicos aliados a resultados orientados por dados.", en: "Growth Strategy, Lead Gen, Brand Authority. Psychological triggers met with data-driven results." },
+  svc_title_1: { pt: "POR QUE VOCÊ ESTÁ", en: "MULTIDISCIPLINARY" },
+  svc_title_2: { pt: "PERDENDO DINHEIRO?", en: "EXECUTION" },
+  svc_desc: { pt: "Pare de perder leads para páginas amadoras. Eu construo a engenharia da sua Landing Page focada em conversão em até 48 horas.", en: "Merging technical precision with creative strategy to dominate the digital landscape." },
+  svc_1_title: { pt: "Perda de Tempo", en: "Waste of Time" },
+  svc_1_desc: { pt: "Você gasta horas no WhatsApp com curiosos porque sua página não filtra os leads.", en: "You spend hours on WhatsApp dealing with curious people because your page doesn't filter leads." },
+  svc_2_title: { pt: "Páginas Lentas", en: "Slow Pages" },
+  svc_2_desc: { pt: "Seu site atual demora para carregar no 4G e o cliente desiste antes de ver a oferta.", en: "Your current website takes too long to load on 4G, and customers give up before even seeing the offer." },
   svc_3_title: { pt: "Narrativa Visual", en: "Visual Narrative" },
-  svc_3_desc: { pt: "Edição Cinematográfica, Storytelling, Reels de Alto Impacto. Retenção de audiência através de visuais de alta fidelidade.", en: "Cinematic Editing, Storytelling, High-Impact Reels. Retaining viewership through high-fidelity visuals." },
+  svc_3_desc: { pt: "Transmita o que seu cliente  tem que saber com Narrativa visual e não apenas com textos.", en: "Convey what your client needs to know with visual storytelling, not just text." },
 
   // Tech Stack
   tech_label: { pt: "FERRAMENTAS DO OFÍCIO", en: "TOOLS OF THE TRADE" },
@@ -52,8 +52,8 @@ const translations = {
 
   // About Me
   about_label: { pt: "SOBRE_MIM", en: "ABOUT_ME" },
-  about_title: { pt: "Engenharia de Precisão: Do Silício ao Código.", en: "Precision Engineering: From Silicon to Code." },
-  about_text: { pt: "Minha base vem da manutenção avançada de hardware. Essa experiência me deu uma visão que poucos devs possuem: a capacidade de entender a tecnologia de dentro para fora. Hoje, uso essa mentalidade analítica para construir ecossistemas digitais que não apenas existem, mas performam.", en: "My foundation comes from advanced hardware maintenance. This experience gave me an insight few devs possess: the ability to understand technology from the inside out. Today, I use this analytical mindset to build digital ecosystems that don't just exist — they perform." },
+  about_title: { pt: "A Precisão do Hardware aplicada à Inteligência do seu Negócio.", en: "Hardware precision applied to your business intelligence." },
+  about_text: { pt: "  Minha jornada começou na eletrônica avançada, onde aprendi que um único componente falhando pode parar uma máquina inteira. Essa obsessão pela precisão me moldou como Engenheiro Full Stack. Hoje, não entrego apenas código; entrego infraestruturas que eliminam o caos manual. Enquanto outros focam em 'fazer um site', eu foco em construir o motor que limpa seus dados, automatiza sua prospecção e garante que você gaste seu tempo fechando contratos, não limpando planilhas.", en: "My journey began in advanced electronics, where I learned that a single failing component can bring an entire machine to a standstill. This obsession with precision shaped me into a Full Stack Engineer.Today, I don't just deliver code; I deliver infrastructure that eliminates manual chaos. While others focus on 'making a website,' I focus on building the engine that cleans your data, automates your prospecting, and ensures you spend your time closing deals, not cleaning spreadsheets." },
   about_pillar_1_title: { pt: "Diagnóstico Preciso", en: "Precise Diagnostics" },
   about_pillar_1_desc: { pt: "Identifico gargalos que impedem sua conversão.", en: "I identify bottlenecks that block your conversion." },
   about_pillar_2_title: { pt: "Performance Extrema", en: "Extreme Performance" },
@@ -68,9 +68,9 @@ const translations = {
 
   // Footer
   footer_copyright: { pt: "© 2026 ENGENHARIA DE ATENÇÃO.", en: "© 2024 KINETIC LUMINA. ENGINEERING ATTENTION." },
-  footer_status: { pt: "STATUS_SISTEMA", en: "SYSTEM_STATUS" },
-  footer_resources: { pt: "RECURSOS", en: "RESOURCES" },
-  footer_connect: { pt: "CONECTAR", en: "CONNECT" },
+  footer_status: { pt: "INSTAGRAM", en: "INSTAGRAM" },
+  footer_resources: { pt: "GITHUB", en: "GITHUB" },
+  footer_connect: { pt: "LINKEDIN", en: "LINKEDIN" },
   footer_source: { pt: "CÓDIGO", en: "SOURCE" },
 } as const;
 

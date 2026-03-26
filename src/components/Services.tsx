@@ -1,4 +1,4 @@
-import { Terminal, Network, PlayCircle } from "lucide-react";
+import { Clock, Smartphone, PlayCircle } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { useLanguage } from "@/contexts/LanguageContext";
 
@@ -7,8 +7,8 @@ const Services = () => {
   const { t } = useLanguage();
 
   const services = [
-    { icon: Terminal, title: t("svc_1_title"), description: t("svc_1_desc") },
-    { icon: Network, title: t("svc_2_title"), description: t("svc_2_desc") },
+    { icon: Clock, title: t("svc_1_title"), description: t("svc_1_desc") },
+    { icon: Smartphone, title: t("svc_2_title"), description: t("svc_2_desc") },
     { icon: PlayCircle, title: t("svc_3_title"), description: t("svc_3_desc") },
   ];
 
