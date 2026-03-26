@@ -3,7 +3,7 @@ import { useState, useEffect, useCallback } from "react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { useLanguage } from "@/contexts/LanguageContext";
 import heroBg1 from "@/assets/hero-bg.jpg";
-import heroBg2 from "@/assets/hero-bg-2.png";
+import heroBg2 from "@/assets/banner 3.jpeg";
 
 const SLIDE_INTERVAL = 5000;
 
